@@ -1,12 +1,11 @@
-# SeaDAS
-straight-forward, step by step guide to using NASA SeaDAS 8.2 (on the command line) to process Landsat-8 and Sentinel-2 data. No prior experience needed.
+# SeaDAS processing
+straight-forward, step by step guide to using NASA SeaDAS 8.2 (on the command line) to process Landsat-8 and Sentinel-2 data. No prior experience needed. written for Mac
 
-(Mac)
+Please note: OCSSW (processing components) can only be installed on mac or linux. to use windows, you'll need to use a client/server model: https://seadas.gsfc.nasa.gov/client_server/
 
 By Sarah Lang (URI-GSO) and Olivia Cronin-Golomb (UVA)
 
 for questions, concerns, or feedback, please email slang@uri.edu
-
 
 **some possible problems and solutions:**
 If you run into an error that states that the operation is not permitted, make sure Terminal has full disk access.
