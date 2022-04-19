@@ -14,8 +14,9 @@ Apple Menu > Preferences > Security and Privacy > Privacy > Full Disk Access > T
 Error regarding git operation: make sure you have command line developer tools installed
 
 if something is not found... check your path! depending on how you initialized SeaDAS, some components (eg. OCSSW_bash.env) may not be located in same place as mine. change your cd to point to folder where whatever you need is located.
+-- additionally, I've had some trouble implementing the land mask. If you initialize SeaDAS correctly, the landmask should be in ...SeaDAS/ocssw/share/common, but if you did not it may be located elsewhere... like in .../SeaDAS/share/common. Check the location of everything in your file browser manually! Check that you are pointing to the right locations in the code.
 
-if all else fails, try quitting Terminal and run through the procedure of setting your working directory, executing gpt.command (and possibly installing processors again).
+if all else fails, try quitting Terminal and run through the procedure of setting your working directory, executing gpt.command (and possibly installing processors again). 
 
 You may receive the following error message if you’ve tried to download the processors previously on your system and the download failed: “Another git process seems to be running in this repository, e.g. an editor opened by 'git commit'. Please make sure all processes are terminated then try again. If it still fails, a git process may have crashed in this repository earlier: remove the file manually to continue.”
 one way:
